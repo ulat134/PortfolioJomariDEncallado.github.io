@@ -277,7 +277,7 @@ main p {
   box-shadow: 0 4px 8px rgba(5, 5, 5, 1.5);
 }
 
-.achievements-container img {
+.achievements-right img {
   width: 200px;
   height: 100px;
   margin: 10px;
@@ -298,6 +298,9 @@ main p {
   h2 {
     padding-top: 20px;
     text-align: center;
+  }
+  .achievements-right {
+    width: 50%;
   }
 }
 
