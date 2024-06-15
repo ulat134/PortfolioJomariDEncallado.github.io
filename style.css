@@ -299,13 +299,6 @@ main p {
     padding-top: 20px;
     text-align: center;
   }
-
-  .skill-container img {
-    width: 40%;
-  }
-  .achievements-right img {
-    width: 44%;
-  }
 }
 
 @media (max-width: 480px) {
