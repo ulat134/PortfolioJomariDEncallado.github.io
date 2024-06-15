@@ -269,7 +269,7 @@ main p {
 .achievements-container {
   margin-top: 50px;
   display: flex;
-
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background-color: #3a3a3a;
@@ -300,7 +300,7 @@ main p {
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 480px) {
   .content-left {
     padding: 5px;
   }
