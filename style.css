@@ -285,6 +285,9 @@ main p {
     text-align: center;
   }
 }
+.achievements-right {
+  width: 50%;
+}
 
 @media (max-width: 480px) {
   .content-left {
