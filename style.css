@@ -297,10 +297,6 @@ main p {
     padding-top: 20px;
     text-align: center;
   }
-
-  .achievements-right {
-    width: 45%;
-  }
 }
 
 @media (max-width: 480px) {
