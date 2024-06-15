@@ -145,8 +145,7 @@ main p {
 .skill-container {
   margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #3a3a3a;
   border-radius: 25px;
@@ -154,9 +153,9 @@ main p {
 }
 
 .skill-container img {
-  width: 120px;
+  width: 250px;
   height: 100px;
-  margin: 20px;
+  margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
 }
 
@@ -243,7 +242,7 @@ main p {
 .port-container {
   margin-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #3a3a3a;
   border-radius: 25px;
@@ -270,7 +269,7 @@ main p {
 .achievements-container {
   margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background-color: #3a3a3a;
@@ -284,7 +283,7 @@ main p {
 }
 
 .achievements-right img {
-  width: 120px;
+  width: 250px;
   height: 150px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
@@ -298,6 +297,10 @@ main p {
   h2 {
     padding-top: 20px;
     text-align: center;
+  }
+
+  .achievements-right {
+    width: 55%;
   }
 }
 
