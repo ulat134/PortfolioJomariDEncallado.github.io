@@ -304,7 +304,7 @@ main p {
     flex-direction: column;
   }
   .skill-container img {
-    width: 30%;
+    width: 50%;
   }
 
   .achievements-right {
