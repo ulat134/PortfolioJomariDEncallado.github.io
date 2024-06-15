@@ -299,9 +299,6 @@ main p {
     text-align: center;
   }
 }
-.achievements-right img {
-  align-items: center;
-}
 
 @media (max-width: 580px) {
   .content-left {
