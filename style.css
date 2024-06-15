@@ -302,9 +302,10 @@ main p {
 
   .skill-container {
     flex-direction: column;
+    flex-wrap: nowrap;
   }
   .skill-container img {
-    width: 70px;
+    width: 40%;
   }
 
   .achievements-right {
