@@ -145,6 +145,7 @@ main p {
 .skill-container {
   margin-top: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background-color: #3a3a3a;
@@ -153,9 +154,9 @@ main p {
 }
 
 .skill-container img {
-  width: 250px;
+  width: 150px;
   height: 100px;
-  margin: 10px;
+  margin: 20px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
 }
 
@@ -297,6 +298,10 @@ main p {
   h2 {
     padding-top: 20px;
     text-align: center;
+  }
+
+  .skill-container img {
+    width: 40%;
   }
 
   .achievements-right {
