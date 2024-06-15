@@ -300,10 +300,6 @@ main p {
     text-align: center;
   }
 
-  .skill-container {
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
   .skill-container img {
     width: 40%;
   }
