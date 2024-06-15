@@ -266,8 +266,8 @@ main p {
 }
 
 .achievements-container img {
-  width: 250px;
-  height: 80px;
+  width: 150px;
+  height: 100px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
 }
