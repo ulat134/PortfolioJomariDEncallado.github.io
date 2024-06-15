@@ -277,15 +277,15 @@ main p {
 }
 
 .achievements-right img {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 150px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
 }
 
 .achievements-left h1 {
-  font-size: 30px;
-  text-align: center;
+  font-size: 20px;
+  text-align: justify;
   color: #fff;
 }
 
@@ -298,6 +298,9 @@ main p {
     padding-top: 20px;
     text-align: center;
   }
+}
+.achievements-right {
+  width: 100%;
 }
 
 @media (max-width: 480px) {
