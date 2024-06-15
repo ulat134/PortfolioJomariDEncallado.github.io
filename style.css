@@ -47,7 +47,7 @@ li a:hover::after {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   ul {
     display: none;
     flex-direction: column;
