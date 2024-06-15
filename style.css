@@ -268,6 +268,7 @@ main p {
 .achievements-container {
   margin-top: 50px;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
   background-color: #3a3a3a;
@@ -275,14 +276,14 @@ main p {
   box-shadow: 0 4px 8px rgba(5, 5, 5, 1.5);
 }
 
-.achievements-container img {
-  width: 200px;
-  height: 100px;
+.achievements-right img {
+  width: 250px;
+  height: 150px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
 }
 
-.achievements-container h1 {
+.achievements-left h1 {
   font-size: 30px;
   text-align: center;
   color: #fff;
@@ -297,10 +298,6 @@ main p {
     padding-top: 20px;
     text-align: center;
   }
-}
-.achievements-container {
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 @media (max-width: 480px) {
