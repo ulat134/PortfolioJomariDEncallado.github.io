@@ -74,6 +74,7 @@ nav ul li a:hover {
     width: 100%;
     background: #333;
     position: absolute;
+    align-items: center;
     top: 60px;
     left: 0;
     padding: 20px 0;
