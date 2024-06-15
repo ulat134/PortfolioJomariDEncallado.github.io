@@ -300,6 +300,9 @@ main p {
     text-align: center;
   }
 
+  .skill-container {
+    flex-direction: column;
+  }
   .skill-container img {
     width: 40%;
   }
