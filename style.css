@@ -145,7 +145,7 @@ main p {
 .skill-container {
   margin-top: 50px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   background-color: #3a3a3a;
@@ -270,7 +270,7 @@ main p {
 .achievements-container {
   margin-top: 50px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   background-color: #3a3a3a;
@@ -303,9 +303,8 @@ main p {
   .skill-container img {
     width: 40%;
   }
-
-  .achievements-right {
-    width: 55%;
+  .achievements-right img {
+    width: 44%;
   }
 }
 
