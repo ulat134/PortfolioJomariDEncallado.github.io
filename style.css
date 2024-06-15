@@ -263,13 +263,13 @@ main p {
   box-shadow: 0 4px 8px rgba(5, 5, 5, 1.5);
 }
 .achievements-left h1 {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
 }
 
 .achievements-right img {
-  width: 250px;
+  width: 200px;
   height: 150px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
@@ -284,9 +284,6 @@ main p {
     padding-top: 20px;
     text-align: center;
   }
-}
-.achievements-right {
-  width: 50%;
 }
 
 @media (max-width: 480px) {
