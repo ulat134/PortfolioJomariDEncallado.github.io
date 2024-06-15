@@ -10,24 +10,10 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
   z-index: 10;
-  padding: 10px 20px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-main {
-  margin-top: 70px; /* To account for the fixed header */
-}
-
-nav {
-  display: flex;
-  align-items: center;
 }
 
 ul {
@@ -82,6 +68,7 @@ li a:hover::after {
     display: block;
   }
 }
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -153,7 +140,7 @@ main p {
 }
 
 .skill-container img {
-  width: 200px;
+  width: 250px;
   height: 100px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
@@ -183,7 +170,7 @@ main p {
 }
 
 .java-right img {
-  width: 200px;
+  width: 250px;
   height: 150px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
@@ -269,7 +256,6 @@ main p {
 .achievements-container {
   margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -284,7 +270,7 @@ main p {
 }
 
 .achievements-right img {
-  width: 200px;
+  width: 250px;
   height: 150px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
@@ -298,6 +284,10 @@ main p {
   h2 {
     padding-top: 20px;
     text-align: center;
+  }
+
+  .achievements-right {
+    width: 55%;
   }
 }
 
