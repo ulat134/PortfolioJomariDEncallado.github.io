@@ -269,6 +269,7 @@ main p {
 .achievements-container {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
