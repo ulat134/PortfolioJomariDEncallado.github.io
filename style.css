@@ -262,17 +262,18 @@ main p {
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(5, 5, 5, 1.5);
 }
-.achievements-left h1 {
+
+.achievements-container img {
+  width: 250px;
+  height: 100px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
+}
+
+.achievements-container h1 {
   font-size: 30px;
   text-align: center;
   color: #fff;
-}
-
-.achievements-right img {
-  width: 200px;
-  height: 150px;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.938);
 }
 
 @media (max-width: 768px) {
